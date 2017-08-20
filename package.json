@@ -2,17 +2,31 @@
   "name": "atom-haskell",
   "main": "./lib/atom-haskell",
   "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
-  "activationCommands": {
-    "atom-workspace": "atom-haskell:toggle"
-  },
-  "repository": "https://github.com/atom/atom-haskell",
+  "description": "Curated set of packages for Haskell development with Atom",
+  "keywords": [],
+  "repository": "https://github.com/Tehnix/atom-haskell",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-  }
+    "atom-package-deps": "4.6.0"
+  },
+  "package-deps": [
+    "language-haskell",
+    "ide-haskell",
+    "ide-haskell-cabal",
+    "haskell-ghc-mod",
+    "autocomplete-haskell",
+    "ide-haskell-hasktags",
+    "ide-haskell-hoogle",
+    "ide-haskell-repl",
+    "language-haskell-scoped",
+    "haskell-pointfree",
+    "language-yaml",
+    "linter",
+    "linter-hlint",
+    "linter-hdevtools",
+    "hasklig"
+  ]
 }
