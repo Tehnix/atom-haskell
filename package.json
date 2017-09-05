@@ -23,10 +23,10 @@
     "ide-haskell-repl",
     "language-haskell-scoped",
     "haskell-pointfree",
+    "hasklig",
+    "atom-beautify",
     "language-yaml",
     "linter",
-    "linter-hlint",
-    "linter-hdevtools",
-    "hasklig"
+    "linter-ui-default"
   ]
 }
