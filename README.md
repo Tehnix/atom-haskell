@@ -67,7 +67,7 @@ If anyone knows how to make a plugin setup configuration for other plugins, then
       "/usr/local/bin"
       "/usr/local/sbin"
       "/usr/local/bin"
-      "/usr/bin:/bin"
+      "/usr/bin"
       "/usr/sbin"
     ]
     lowMemorySystem: true
@@ -90,9 +90,9 @@ If anyone knows how to make a plugin setup configuration for other plugins, then
   "linter-ui-default":
     panelHeight: 177
     showPanel: true
+    hidePanelWhenEmpty: false
   "tree-view":
     hideIgnoredNames: true
-    showOnRightSide: false
     squashDirectoryNames: true
   "vim-mode-plus":
     charactersToAddSpaceOnSurround: [
