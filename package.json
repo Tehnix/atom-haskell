@@ -25,6 +25,7 @@
     "haskell-pointfree",
     "hasklig",
     "atom-beautify",
+    "haskell-scry",
     "language-yaml",
     "linter",
     "linter-ui-default"

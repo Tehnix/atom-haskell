@@ -1,6 +1,6 @@
 # atom-haskell package
 
-Curated set of packages for Haskell development with Atom. The package list taken from [Atom-Haskell Documentation](https://atom-haskell.github.io) (not made by me :). Configuration, documentation and much more can be found there.
+Curated set of packages for Haskell development with Atom. The package list taken from [Atom-Haskell Documentation](https://atom-haskell.github.io) (not made by me :). Detailed configuration, documentation and much more can be found there.
 
 This package installs the following for you:
 
@@ -14,6 +14,7 @@ This package installs the following for you:
 -   [ide-haskell-hoogle](https://atom.io/packages/ide-haskell-hoogle) – lookup hoogle documentation via local hoogle database
 -   [ide-haskell-repl](https://atom.io/packages/ide-haskell-repl) – GHCi REPL in Atom
 -   [language-haskell-scoped](https://atom.io/packages/language-haskell-scoped) – highlight known identifiers in editor
+-   [haskell-scry](https://atom.io/packages/haskell-scry) - de-emphasizes qualified Haskell identifiers
 
 Additionally it installs,
 
@@ -24,6 +25,10 @@ Additionally it installs,
 -   [language-yaml](https://atom.io/packages/language-yaml) for all those `stack.yaml`s
 
 which you can optionally disable.
+
+# Quick configuration
+
+You will be prompted if you want to set some nice default configuration values for the installed packages. You will only be asked once, and you can dismiss this and later run it manually via the Command Palette and then `Atom Haskell: Set Default Configuration`.
 
 # Binaries
 
@@ -39,16 +44,14 @@ For formatters you have some choice between `stylish-haskell`, `hindent` and `br
 stack install hindent
 ```
 
-# Quick configuration
-
-You will be prompted if you want to set some nice default configuration values for the installed packages. You will only be asked once, and you can dismiss this and later run it manually via the Command Palette and then `Atom Haskell: Set Default Configuration`.
-
 # Other things
-
-Finally, a bit of a self-plug, but I recommend the theme [Spacemacs Dark](https://github.com/Tehnix/spacemacsdark-syntax-atom), where I added some additional highlighting for Haskell. It is, as the name implies, inspired by the Spacemacs dark theme.
-
-![Screenshot of Spacemacs Dark Syntax](https://user-images.githubusercontent.com/1189998/29494933-b0e81f7a-85ef-11e7-8359-8550f32d6760.png)
 
 ## Spacemacs-esque keybindings
 
-You might also like my keybindings package [spaceatom-keybindings](https://github.com/Tehnix/spaceatom-keybindings), if you're coming from spacemacs and still have that muscle memory.
+A bit of a self-plug, but you might also like my keybindings package [spaceatom-keybindings](https://github.com/Tehnix/spaceatom-keybindings), if you're coming from spacemacs and still have that muscle memory.
+
+## Spacemacs dark theme
+
+I also recommend the theme [Spacemacs Dark](https://github.com/Tehnix/spacemacsdark-syntax-atom), where I added some additional highlighting for Haskell. It is, as the name implies, inspired by the Spacemacs dark theme.
+
+![Screenshot of Spacemacs Dark Syntax](https://user-images.githubusercontent.com/1189998/29494933-b0e81f7a-85ef-11e7-8359-8550f32d6760.png)
