@@ -24,7 +24,9 @@ Additionally it installs,
 -   [linter-ui-default](https://atom.io/packages/linter-ui-default) which brings some UI additions for the linter
 -   [language-yaml](https://atom.io/packages/language-yaml) for all those `stack.yaml`s
 
-which you can optionally disable.
+any of which you can disable. If you don't like the way `atom-hasklig` alters
+fonts, uninstall it and clear the `Font Family` box in Settings (Preferences),
+under `Editor`.
 
 # Quick configuration
 
@@ -43,6 +45,10 @@ For formatters you have some choice between `stylish-haskell`, `hindent` and `br
 ```bash
 stack install hindent
 ```
+
+Follow this up with:  
+Edit -> Preferences -> Packages -> atom-beautify -> Settings -> Haskell ->
+*expand* -> *[your choice of beautifier]*
 
 # Other things
 
